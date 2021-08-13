@@ -6,8 +6,8 @@ $(document).ready(function() {
     $(".userName").append(userNameInput);
 
 
-    $("#result").show();
-
+    
+    $("#final").show();
 
   });
 });
