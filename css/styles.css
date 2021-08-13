@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+  color: lightseagreen
+}
+.container {
+  width: 65%;
+  margin: auto;
+}
+.result {
+  display: none;
+}
