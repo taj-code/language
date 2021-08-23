@@ -30,24 +30,24 @@
         <label for="music">Favorite Music</label><br>
         <div>
           <label>
-            <input type="radio" name="music" value="Rock" checked>
+            <input type="radio" name="music" value="rock" checked>
             Rock
           </label>
         <div class="radio">
           <label>
-            <input type="radio" name="music" value="Jazz" unchecked>
+            <input type="radio" name="music" value="jazz" unchecked>
             Jazz
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="music" value="Blues" unchecked>
+            <input type="radio" name="music" value="blues" unchecked>
             Blues
           </label>
       </div>
       <label for="subject">What is your favorite subject?</label>
       <select class="form-control" id="subject">
-        <option>Art</option>
+        <option value="art">Art</option>
         <option>Math</option>
         <option>Science</option>
         <option>Other</option>
@@ -57,7 +57,7 @@
     </form>
     <form id="type">
       <div id="c"> 
-        <h2>C#<span id="answer"></span></h2>
+        <h2>C#<span id="c"></span></h2>
         <p>This is C#, Welome. It is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.</p>
       </div>
 
@@ -76,8 +76,9 @@
       Name: <span class="userName"></span><br>
       birthday: <span class="birthday"></span><br>
       Color: <span class="color" type="color"></span><br>
-      Favorite Music: <span class="music"></span><span class="type"></span><br>
+      Favorite Music: <span class="music"></span><br>
       Favorite Subject: <span class="subject"></span><br>
+      Learn this language: <span class="type"></span>
       
       </div>
   </div>
