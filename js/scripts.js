@@ -7,7 +7,7 @@ $(document).ready(function() {
     const musicInput = $("input:radio[name=music]:checked").val();
     const subjectInput = $("#subject").val();
     // const subjectInput = parseInt($("subjectInput#subject").val());
-
+     $("#c").hide();
      $(".userName").append(userNameInput);
      $(".birthday").append(birthdayInput);
      $(".color").append(colorInput);
@@ -18,13 +18,15 @@ $(document).ready(function() {
     //   $("span#type").text("c")
     // }
     //  $(".subject").append(subjectInput);
-      
-    // if (subjectInput === art) {
-    //     $("final").show();
-    //     $("span#type").text("c")
-    //   }
-      
-  $("#final").show();
+ 
+    if (subjectInput === "art") {
+        $("#final").show();
+        $("#c").show();
+        $("span#type").text("c")
+      }
+
+  // comment below out
+  // $("#final").show();
 
   });
 });
