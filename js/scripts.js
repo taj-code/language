@@ -5,7 +5,7 @@ $(document).ready(function() {
     const birthdayInput = $("input#birthday").val();
     const colorInput = $("input#color").val();
     const musicInput = $("input:radio[name=music]:checked").val();
-    const subjectInput = $("input#subject").val();
+    const subjectInput = $("#subject").val();
 
      $(".userName").append(userNameInput);
      $(".birthday").append(birthdayInput);
