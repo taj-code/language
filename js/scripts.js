@@ -3,9 +3,11 @@ $(document).ready(function() {
     event.preventDefault();
     const userNameInput = $("input#userName").val();
     const birthdayInput = $("input#birthday").val();
+    const colorInput = $("input#color").val();
 
      $(".userName").append(userNameInput);
      $(".birthday").append(birthdayInput);
+     $(".color").append(colorInput);
 
 
     
