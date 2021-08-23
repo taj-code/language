@@ -13,12 +13,8 @@ $(document).ready(function() {
      $(".music").append(musicInput);
      $(".subject").append(subjectInput);
 
-      if (musicInput="rock") {
-        $("#c").show();
-        $("#final").show();
-      }
-
-      $("#final").show();
+      
+  $("#final").show();
 
   });
 });
