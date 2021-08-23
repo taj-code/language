@@ -6,6 +6,10 @@ $(document).ready(function() {
     const colorInput = $("input#color").val();
     const musicInput = $("input:radio[name=music]:checked").val();
     const subjectInput = $("#subject").val();
+        
+    if (musicInput = "Rock") {
+        $("#c").show();
+        $("span#answer").text("c")
 
      $(".userName").append(userNameInput);
      $(".birthday").append(birthdayInput);
@@ -13,8 +17,15 @@ $(document).ready(function() {
      $(".music").append(musicInput);
      $(".subject").append(subjectInput);
 
+    //  if (music >= "rock") {
+    //   $("#c").show();
+    //   $("span#final").text("c")
+    //  }
+
       $("#final").show();
 
+      
+      }
   });
 });
 
