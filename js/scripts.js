@@ -13,26 +13,7 @@ $(document).ready(function() {
      $(".music").append(musicInput);
      $(".subject").append(subjectInput)
 
-     if (musicInput="rock") {
-       $("#c").show();
-       $("#final").show();
-     }
-
-      // $("#final").show();
-
-    //   document.getElementById("rock").addEventListener("click", myFunction);
-
-    //  function myFunction() {
-    //   document.getElementById("rock").innerHTML = "c#";
+      $("#final").show();
 
   });
 });
-
-//const flavor = $("input:radio[name=flavor]:checked").val();
-
-// const beverage = $("#beverage").val();
-
-
-
-// if ("rock"=clicked)
-    //   $("#c").show 
