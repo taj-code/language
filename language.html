@@ -26,24 +26,25 @@
         <label for="color">What is your favorite color</label>
         <input id="color" class="form-control" type="color">
       </div>
-      <div class="radio">
+      <div class="form-group">
         <label for="music">Favorite Music</label><br>
-        <label>
-          <input type="radio" name="music" value="Rock" unchecked>
-          Rock
-        </label>
+        <div>
+          <label>
+            <input type="radio" id="music" value="Rock" checked>
+            Rock
+          </label>
+        <div class="radio">
+          <label>
+            <input type="radio" id="music" value="Jazz" unchecked>
+            Jazz
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="music" value="Blues" unchecked>
+            Blues
+          </label>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="music" value="Jazz" unchecked>
-          Jazz
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="music" value="Blues" unchecked>
-          Blues
-        </label>
       </div>
       <button type="submit" class="btn">Find out result</button>
     </form>
@@ -53,7 +54,6 @@
       Color: <span class="color" type="color"></span><br>
       Favorite Music: <span class="music" type="music"></span>
     </div>
-
 
   </div>
 </body>

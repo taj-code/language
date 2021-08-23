@@ -4,7 +4,7 @@ $(document).ready(function() {
     const userNameInput = $("input#userName").val();
     const birthdayInput = $("input#birthday").val();
     const colorInput = $("input#color").val();
-    const music = $("input#music").val();
+    const musicInput = $("input#music").val();
 
      $(".userName").append(userNameInput);
      $(".birthday").append(birthdayInput);
