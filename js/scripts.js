@@ -11,9 +11,16 @@ $(document).ready(function() {
      $(".birthday").append(birthdayInput);
      $(".color").append(colorInput);
      $(".music").append(musicInput);
-     $(".subject").append(subjectInput)
+     $(".subject").append(subjectInput);
 
       $("#final").show();
 
   });
 });
+
+
+
+// if (musicInput="rock") {
+//   $("#c").show();
+//   $("#final").show();
+// }
