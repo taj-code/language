@@ -27,15 +27,22 @@
         <input id="color" class="form-control" type="color">
       </div>
       <div class="radio">
+        <label for="music">Favorite Music</label><br>
         <label>
-          <input type="radio" name="music" value="Rock" checked>
+          <input type="radio" name="music" value="Rock" unchecked>
           Rock
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="music" name="music" value="Jazz" checked>
+          <input type="radio" name="music" value="Jazz" unchecked>
           Jazz
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="music" value="Blues" unchecked>
+          Blues
         </label>
       </div>
       <button type="submit" class="btn">Find out result</button>
@@ -44,7 +51,7 @@
       Name: <span class="userName"></span><br>
       birthday: <span class="birthday"></span><br>
       Color: <span class="color" type="color"></span><br>
-      Favorite Music: <span class="favMusic" type="favMusic"></span>
+      Favorite Music: <span class="music" type="music"></span>
     </div>
 
 

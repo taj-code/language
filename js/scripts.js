@@ -4,15 +4,17 @@ $(document).ready(function() {
     const userNameInput = $("input#userName").val();
     const birthdayInput = $("input#birthday").val();
     const colorInput = $("input#color").val();
-    const favMusicInput = $("input#favMusic").val();
+    const music = $("input#music").val();
 
      $(".userName").append(userNameInput);
      $(".birthday").append(birthdayInput);
      $(".color").append(colorInput);
-     $(".favMusic").append(favMucicInput);
+     $(".music").append(musicInput);
 
 
       $("#final").show();
 
   });
 });
+
+//const flavor = $("input:radio[name=flavor]:checked").val();
