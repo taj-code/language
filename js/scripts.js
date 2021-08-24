@@ -8,6 +8,9 @@ $(document).ready(function() {
     const subjectInput = $("#subject").val();
 
      $("#c").hide();
+     $("#java").hide();
+     $("python").hide();
+     $("unknown").hide();
      $(".userName").append(userNameInput);
      $(".birthday").append(birthdayInput);
      $(".color").append(colorInput);
@@ -19,5 +22,20 @@ $(document).ready(function() {
         $("#c").show();
         $("span#type").text("c")
       }
+    if (subjectInput === "math") {
+      $("#final").show();
+        $("#java").show();
+        $("span#type").text("java")
+    }
+    if (subjectInput === "science") {
+      $("#final").show();
+      $("#python").show();
+      $("span#type").text("python")
+    }
+    if (subjectInput === "other") {
+      $("#final").show();
+      $("#unknown").show();
+      $("span#type").text("unknown")
+    }
   });
 });

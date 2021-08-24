@@ -12,9 +12,12 @@ h1 {
 #c {
   display: none;
 }
-#javascript {
+#java {
   display: none;
 }
 #python {
+  display: none;
+}
+#unknown {
   display: none;
 }
